@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: zooApp
+  cloud:
+    zookeeper:
+      config:
+        enabled: true
+        root: config
+        watcher:
+          enabled: true
+#        defaultContext: apps
+        profileSeparator: '::'
+
+#name:
+#  Ajinkya
